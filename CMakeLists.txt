@@ -14,9 +14,11 @@
 # ======================================================================
 cmake_minimum_required(VERSION 3.19 FATAL_ERROR)
 
-
 find_package(cetmodules 2.29.06 REQUIRED)
-project(nugen VERSION 1.23.02 LANGUAGES CXX)
+project(nugen VERSION 1.23.01 LANGUAGES CXX)
+# Explicitly set the project string
+set(${PROJECT_NAME}_CMAKE_PROJECT_VERSION_STRING "1.23.01__sbn2")
+
 
 include(CetCMakeEnv)
 cet_cmake_env()
