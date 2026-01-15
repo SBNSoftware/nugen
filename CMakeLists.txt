@@ -19,6 +19,7 @@ project(nugen VERSION 1.23.01 LANGUAGES CXX)
 # Explicitly set the project string
 set(${PROJECT_NAME}_CMAKE_PROJECT_VERSION_STRING "1.23.01__sbn2")
 
+
 include(CetCMakeEnv)
 cet_cmake_env()
 
